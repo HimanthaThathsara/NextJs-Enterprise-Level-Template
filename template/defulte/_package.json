@@ -1,0 +1,23 @@
+{
+	"name": "{{name}}",
+	"description": "{{description}}",
+	"version": "0.1.0",
+	"private": true,
+	"license": "{{license}}",
+	"type": "module",
+	"scripts": {
+		"dev": "next dev",
+    	"build": "next build",
+    	"start": "next start",
+    	"lint": "eslint",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"author": {
+		"name": "{{authorName}}",
+		"email": "{{authorEmail}}",
+		"url": "{{authorUrl}}"
+	},
+	"keywords": ["{{name}}", "{{authorName}}"],
+	"files": ["index.js", "utils"]	
+	
+}
