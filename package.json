@@ -7,7 +7,7 @@
   },
   "main": "./cli.js",
   "type": "module",
-   "scripts": {
+  "scripts": {
     "start": "node ./cli.js",
     "dev": "nodemon ./cli.js",
     "test": "echo \"No tests yet\""
@@ -32,9 +32,32 @@
   "license": "MIT",
   "dependencies": {
     "@clack/prompts": "^0.11.0",
+    "can-pnpm": "^0.4.0",
+    "chalk": "^5.3.0",
+    "cli-alerts": "^2.0.0",
+    "cli-handle-error": "^4.4.0",
+    "cli-handle-unhandled": "^1.1.1",
+    "cli-meow-help": "^4.0.0",
+    "cli-should-cancel": "^2.1.0",
+    "cli-welcome": "^3.0.0",
+    "copy-template-dir": "^1.4.0",
+    "data-store": "^4.0.3",
+    "enquirer": "^2.3.6",
+    "execa": "^9.3.0",
     "fs-extra": "^11.3.0",
+    "get-package-json-file": "^2.0.0",
     "inquirer": "^12.9.0",
-    "path": "^0.12.7"
+    "meow": "13.2.0",
+    "next": "^15.5.0",
+    "next-auth": "^4.24.11",
+    "ora": "^8.0.1",
+    "path": "^0.12.7",
+    "pg": "^8.16.3",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "sequelize": "^6.37.7",
+    "styled-components": "^6.1.19",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
