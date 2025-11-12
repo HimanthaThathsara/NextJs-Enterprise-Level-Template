@@ -1,6 +1,6 @@
 {
   "name": "next-enterprise-init",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A CLI toolkit to generate full-stack project templates from local folders or remote GitHub/GitLab repositories.",
   "bin": {
     "next-enterprise-init": "./index.js"
