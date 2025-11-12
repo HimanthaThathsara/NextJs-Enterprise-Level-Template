@@ -1,15 +1,15 @@
 {
   "name": "next-enterprise-init",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A CLI toolkit to generate full-stack project templates from local folders or remote GitHub/GitLab repositories.",
   "bin": {
-    "next-enterprise-init": "./cli.js"
+    "next-enterprise-init": "./index.js"
   },
-  "main": "./cli.js",
+  "main": "./index.js",
   "type": "module",
   "scripts": {
-    "start": "node ./cli.js",
-    "dev": "nodemon ./cli.js",
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
     "test": "echo \"No tests yet\""
   },
   "keywords": [
@@ -47,7 +47,7 @@
     "fs-extra": "^11.3.0",
     "get-package-json-file": "^2.0.0",
     "inquirer": "^12.9.0",
-    "meow": "13.2.0",
+    "meow": "^13.2.0",
     "next": "^15.5.0",
     "next-auth": "^4.24.11",
     "ora": "^8.0.1",
@@ -67,10 +67,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/issues"
   },
-  "homepage": ""
+  "homepage": "https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template#readme"
 }
