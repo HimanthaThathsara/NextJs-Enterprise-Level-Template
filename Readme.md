@@ -11,7 +11,7 @@
 </pre>
 </div>
 <p align="center">
-	<em><code>❯ REPLACE-ME</code></em>
+	<em><code>A production-ready, opinionated Next.js starter template designed for building scalable, maintainable web applications.</code></em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/HimanthaThathsara/NextJs-Enterprise-Level-Template?style=default&logo=opensourceinitiative&logoColor=white&color=ffffff" alt="license">
