@@ -29,273 +29,61 @@
 ##  Table of Contents
 
 - [ Overview](#-overview)
+- [What this project does](#-What-this-project-does)
+- [Who it's for](#-Who-it's-for)
 - [ Features](#-features)
-- [ Project Structure](#-project-structure)
-  - [ Project Index](#-project-index)
+- [ Demo](#-demo)
 - [ Getting Started](#-getting-started)
-  - [ Prerequisites](#-prerequisites)
   - [ Installation](#-installation)
   - [ Usage](#-usage)
-  - [ Testing](#-testing)
 - [ Project Roadmap](#-project-roadmap)
 - [ Contributing](#-contributing)
 - [ License](#-license)
-- [ Acknowledgments](#-acknowledgments)
 
 ---
 
 ##  Overview
 
-<code>❯ REPLACE-ME</code>
+<code>A production-ready, opinionated Next.js starter template designed for building scalable, maintainable web applications. This repository provides an enterprise-grade structure, common configuration, and best-practice defaults so teams can move quickly without redoing boilerplate.
+This project is packaged and distributed as an npm scaffolding/template package so you can quickly create new apps using these conventions.
+</code>
+
+---
+## What this project does
+
+- Provides a well-organized folder layout and recommended architectural patterns for large Next.js applications.
+- Includes TypeScript support, linting, formatting, and recommended dev tooling (ESLint, Prettier, Husky, lint-staged).
+- Contains example integrations for environment configuration, API routes, basic auth-ready structure, and recommended testing setup.
+- Supplies CI/CD workflow examples and deployment-ready configuration.
+- Acts as an official starting point for teams who want a consistent, maintainable baseline for Next.js projects.
+
+## Who it's for
+
+- Teams building enterprise or medium-to-large Next.js applications.
+- Developers who want a battle-tested starting point with best practices already wired in.
+- Open-source maintainers or internal platforms standardizing project layouts across multiple squads.
 
 ---
 
 ##  Features
 
-<code>❯ REPLACE-ME</code>
+- Next.js app structure and sample pages
+- TypeScript + typings and sample patterns
+- ESLint and Prettier configuration
+- Commit hooks via Husky and lint-staged (optional)
+- Example API routes and environment config
+- Testing scaffold (Jest/React Testing Library) — if present
+- CI workflow examples (GitHub Actions) — if present
+
+> Note: The specific included tools vary by commit — check package.json for exact devDependencies and scripts.
+
 
 ---
 
-##  Project Structure
-
-```sh
-└── NextJs-Enterprise-Level-Template/
-    ├── LICENSE
-    ├── Readme.md
-    ├── index.js
-    ├── package-lock.json
-    ├── package.json
-    ├── template
-    │   ├── Nextjs
-    │   ├── defulte
-    │   ├── style
-    │   └── type
-    └── utils
-        ├── cli.js
-        ├── createdFiles_Edit.js
-        ├── generate.js
-        ├── init.js
-        ├── log.js
-        ├── pkg_command.js
-        └── questions.js
-```
-
-
-###  Project Index
-<details open>
-	<summary><b><code>NEXTJS-ENTERPRISE-LEVEL-TEMPLATE/</code></b></summary>
-	<details> <!-- __root__ Submodule -->
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/package-lock.json'>package-lock.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/index.js'>index.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/package.json'>package.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- utils Submodule -->
-		<summary><b>utils</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/utils/cli.js'>cli.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/utils/createdFiles_Edit.js'>createdFiles_Edit.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/utils/log.js'>log.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/utils/questions.js'>questions.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/utils/pkg_command.js'>pkg_command.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/utils/init.js'>init.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/utils/generate.js'>generate.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- template Submodule -->
-		<summary><b>template</b></summary>
-		<blockquote>
-			<details>
-				<summary><b>type</b></summary>
-				<blockquote>
-					<table>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/type/_tsconfig.json'>_tsconfig.json</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/type/pageroute.json'>pageroute.json</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					</table>
-				</blockquote>
-			</details>
-			<details>
-				<summary><b>Nextjs</b></summary>
-				<blockquote>
-					<details>
-						<summary><b>page route</b></summary>
-						<blockquote>
-							<details>
-								<summary><b>pages</b></summary>
-								<blockquote>
-									<table>
-									<tr>
-										<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/Nextjs/page route/pages/_document.tsx'>_document.tsx</a></b></td>
-										<td><code>❯ REPLACE-ME</code></td>
-									</tr>
-									<tr>
-										<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/Nextjs/page route/pages/_app.tsx'>_app.tsx</a></b></td>
-										<td><code>❯ REPLACE-ME</code></td>
-									</tr>
-									<tr>
-										<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/Nextjs/page route/pages/index.tsx'>index.tsx</a></b></td>
-										<td><code>❯ REPLACE-ME</code></td>
-									</tr>
-									</table>
-									<details>
-										<summary><b>api</b></summary>
-										<blockquote>
-											<table>
-											<tr>
-												<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/Nextjs/page route/pages/api/hello.ts'>hello.ts</a></b></td>
-												<td><code>❯ REPLACE-ME</code></td>
-											</tr>
-											</table>
-										</blockquote>
-									</details>
-								</blockquote>
-							</details>
-						</blockquote>
-					</details>
-					<details>
-						<summary><b>app route</b></summary>
-						<blockquote>
-							<details>
-								<summary><b>app</b></summary>
-								<blockquote>
-									<table>
-									<tr>
-										<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/Nextjs/app route/app/layout.tsx'>layout.tsx</a></b></td>
-										<td><code>❯ REPLACE-ME</code></td>
-									</tr>
-									<tr>
-										<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/Nextjs/app route/app/globals.css'>globals.css</a></b></td>
-										<td><code>❯ REPLACE-ME</code></td>
-									</tr>
-									<tr>
-										<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/Nextjs/app route/app/page.tsx'>page.tsx</a></b></td>
-										<td><code>❯ REPLACE-ME</code></td>
-									</tr>
-									</table>
-								</blockquote>
-							</details>
-						</blockquote>
-					</details>
-				</blockquote>
-			</details>
-			<details>
-				<summary><b>defulte</b></summary>
-				<blockquote>
-					<table>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/defulte/_package.json'>_package.json</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/defulte/_prettier.config.js'>_prettier.config.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/defulte/_.prettierignore'>_.prettierignore</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/defulte/_.env.local'>_.env.local</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/defulte/_.prettierrc.json'>_.prettierrc.json</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					</table>
-				</blockquote>
-			</details>
-			<details>
-				<summary><b>style</b></summary>
-				<blockquote>
-					<table>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/style/_.babelrc'>_.babelrc</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/style/_babel.config.js'>_babel.config.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/style/_.scss'>_.scss</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/style/_tailwind.config.js'>_tailwind.config.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/style/_postcss.config.js'>_postcss.config.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/style/_globals.css'>_globals.css</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/master/template/style/_tailwind.config.ts'>_tailwind.config.ts</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					</table>
-				</blockquote>
-			</details>
-		</blockquote>
-	</details>
-</details>
+##  Demo
 
 ---
 ##  Getting Started
-
-###  Prerequisites
-
-Before getting started with NextJs-Enterprise-Level-Template, ensure your runtime environment meets the following requirements:
-
-- **Programming Language:** JavaScript
-- **Package Manager:** Npm
-
 
 ###  Installation
 
@@ -313,35 +101,17 @@ Install NextJs-Enterprise-Level-Template using one of the following methods:
 ❯ cd NextJs-Enterprise-Level-Template
 ```
 
-3. Install the project dependencies:
-
-
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+3. Install the project dependencies **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```sh
 ❯ npm install
 ```
 
-
-
-
-###  Usage
-Run NextJs-Enterprise-Level-Template using the following command:
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+4. Run using the following command **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```sh
-❯ npm start
+❯ npm run dev
 ```
-
-
-###  Testing
-Run the test suite using the following command:
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
-
-```sh
-❯ npm test
-```
-
 
 ---
 ##  Project Roadmap
@@ -354,11 +124,11 @@ Run the test suite using the following command:
 
 ##  Contributing
 
-- **💬 [Join the Discussions](https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/issues)**: Submit bugs found or log feature requests for the `NextJs-Enterprise-Level-Template` project.
-- **💡 [Submit Pull Requests](https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **[Join the Discussions](https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/discussions)**
+- **[Report Issues](https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/issues)**
+- **[Submit Pull Requests](https://github.com/HimanthaThathsara/NextJs-Enterprise-Level-Template/blob/main/CONTRIBUTING.md)**
 
-<details closed>
+<details>
 <summary>Contributing Guidelines</summary>
 
 1. **Fork the Repository**: Start by forking the project repository to your github account.
@@ -383,7 +153,7 @@ Run the test suite using the following command:
 8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
 </details>
 
-<details closed>
+<details>
 <summary>Contributor Graph</summary>
 <br>
 <p align="left">
@@ -397,12 +167,7 @@ Run the test suite using the following command:
 
 ##  License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the [MIT-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
-##  Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
-
----
