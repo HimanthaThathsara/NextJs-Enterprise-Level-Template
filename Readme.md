@@ -112,14 +112,6 @@ Install NextJs-Enterprise-Level-Template using one of the following methods:
 ```sh
 ❯ npm run dev
 ```
-
----
-##  Project Roadmap
-
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
-
 ---
 
 ##  Contributing
